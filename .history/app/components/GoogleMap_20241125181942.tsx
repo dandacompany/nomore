@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { GoogleMap, LoadScript, Marker, Circle } from "@react-google-maps/api";
 
 interface Store {

@@ -48,7 +48,9 @@ const MapComponent: React.FC<GoogleMapProps> = ({
 
 	return (
 		<LoadScript
-			googleMapsApiKey={process.env.NEXT_PUBLIC_GOOGLE_MAP_API_KEY || ""}
+			googleMapsApiKey={
+				String(process.env.NEXT_PUBLIC_GOOGLE_MAP_API_KEY) || ""
+			}
 		>
 			<GoogleMap
 				mapContainerStyle={mapStyles}
