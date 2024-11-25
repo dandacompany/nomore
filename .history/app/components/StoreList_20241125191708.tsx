@@ -1,11 +1,5 @@
 import React from "react";
-
-interface Store {
-	name: string;
-	address: string;
-	phone: string;
-	hours: string;
-}
+import { Store } from "../types/store";
 
 interface StoreListProps {
 	stores: Store[];
