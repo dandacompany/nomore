@@ -21,10 +21,10 @@ const Carousel: React.FC = () => {
 			}, 5000);
 			return () => clearInterval(interval);
 		}
-	}, [isPlaying]);
+	}, [slides.length]);
 
 	return (
-		<div className="relative w-full h-[500px]">
+		<div className="relative w-full aspect-[21/9]">
 			{slides.map((slide, index) => (
 				<Link href={slide.link} key={index}>
 					<Image

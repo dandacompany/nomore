@@ -21,7 +21,7 @@ const Carousel: React.FC = () => {
 			}, 5000);
 			return () => clearInterval(interval);
 		}
-	}, [isPlaying]);
+	}, [slides.length]);
 
 	return (
 		<div className="relative w-full aspect-[21/9]">

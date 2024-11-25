@@ -12,6 +12,25 @@ interface GoogleMapProps {
 	stores: Store[];
 }
 
+interface MapProps {
+	google: {
+		maps: {
+			Map: new (element: HTMLElement, options: MapOptions) => void;
+			Marker: new (options: MarkerOptions) => void;
+		};
+	};
+}
+
+interface MapOptions {
+	center: { lat: number; lng: number };
+	zoom: number;
+}
+
+interface MarkerOptions {
+	position: { lat: number; lng: number };
+	map: any;
+}
+
 const MapComponent: React.FC<GoogleMapProps> = ({ selectedStore, stores }) => {
 	const mapStyles = {
 		height: "100%",
