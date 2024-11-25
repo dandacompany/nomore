@@ -12,11 +12,24 @@ interface GoogleMapProps {
 	stores: Store[];
 }
 
-// Google Maps 관련 타입 정의
-type GoogleMapIcon = {
-	url: string;
-	scaledSize: google.maps.Size;
-};
+interface MapProps {
+	google: {
+		maps: {
+			Map: new (element: HTMLElement, options: MapOptions) => void;
+			Marker: new (options: MarkerOptions) => void;
+		};
+	};
+}
+
+interface MapOptions {
+	center: { lat: number; lng: number };
+	zoom: number;
+}
+
+interface MarkerOptions {
+	position: { lat: number; lng: number };
+	map: any;
+}
 
 const MapComponent: React.FC<GoogleMapProps> = ({ selectedStore, stores }) => {
 	const mapStyles = {
@@ -29,7 +42,7 @@ const MapComponent: React.FC<GoogleMapProps> = ({ selectedStore, stores }) => {
 		lng: 126.978, // Seoul coordinates
 	};
 
-	const [markerIcon, setMarkerIcon] = useState<GoogleMapIcon | null>(null);
+	const [markerIcon, setMarkerIcon] = useState<any>(null);
 
 	useEffect(() => {
 		if (typeof window !== "undefined" && window.google) {
@@ -38,7 +51,7 @@ const MapComponent: React.FC<GoogleMapProps> = ({ selectedStore, stores }) => {
 				scaledSize: new window.google.maps.Size(40, 40),
 			});
 		}
-	}, []);
+	}, []); // 빈 배열로 설정하여 처음 렌더링 시에만 실행
 
 	return (
 		<LoadScript
@@ -57,7 +70,7 @@ const MapComponent: React.FC<GoogleMapProps> = ({ selectedStore, stores }) => {
 					<Marker
 						key={store.name}
 						position={{ lat: store.lat, lng: store.lng }}
-						icon={markerIcon}
+						icon={markerIcon} // 커스텀 마커 아이콘 적용
 					/>
 				))}
 				{selectedStore && (
