@@ -1,0 +1,19 @@
+[
+	{
+		"category": "떡볶이",
+		"menus": [
+			{
+				"title": "봉매떡볶이",
+				"description": "봉천동매운떡볶이의 시그니처 떡볶이",
+				"price": 10000,
+				"image": "/images/menu/tteokbokki_1.jpg"
+			},
+			{
+				"title": "로제떡볶이",
+				"description": "수제크림소스에 매콤한소스를 넣어\n 모두가 좋아하는 떡복이",
+				"price": 10000,
+				"image": "/images/menu/tteokbokki_2.jpg"
+			}
+		]
+	}
+]

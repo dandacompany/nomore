@@ -1,0 +1,49 @@
+[
+	{
+		"category": "떡볶이",
+		"menus": [
+			{
+				"title": "봉매떡볶이",
+				"description": "봉천동매운떡볶이의 시그니처 떡볶이",
+				"price": 14800,
+				"image": "/images/menu/tteokbokki_1.jpg"
+			},
+			{
+				"title": "로제떡볶이",
+				"description": "수제크림소스에 매콤한소스를 넣어 모두가 좋아하는 떡볶이",
+				"price": 16800,
+				"image": "/images/menu/tteokbokki_2.jpg"
+			},
+			{
+				"title": "찹쌀탕수육세트(2~3인)",
+				"description": "찹쌀탕수육(미니)+봉매떡볶이",
+				"price": 25800,
+				"image": "/images/menu/tangsuyuk_set.jpg"
+			},
+			{
+				"title": "바질크림떡볶이",
+				"description": "수제크림소스에 바질을 더한 가장 트렌디한 떡볶이",
+				"price": 16800,
+				"image": "/images/menu/tteokbokki_3.jpg"
+			},
+			{
+				"title": "찹쌀탕수육(미니)",
+				"description": "찹쌀로 만들어 간단하게 즐기기 좋은 맛",
+				"price": 6500,
+				"image": "/images/menu/tangsuyuk_mini.jpg"
+			},
+			{
+				"title": "찹쌀탕수육세트(3~4인)",
+				"description": "찹쌀탕수육(중)+봉매떡볶이",
+				"price": 39800,
+				"image": "/images/menu/tangsuyuk_set_3_4.jpg"
+			},
+			{
+				"title": "찹쌀탕수육세트(4~5인)",
+				"description": "찹쌀탕수육(대)+봉매떡볶이",
+				"price": 49800,
+				"image": "/images/menu/tangsuyuk_set_4_5.jpg"
+			}
+		]
+	}
+]

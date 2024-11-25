@@ -1,0 +1,50 @@
+[
+	{
+		"step": 1,
+		"icon": "images/open/step1.png",
+		"title": "개설상담",
+		"description": "전화 홈페이지 등록 등 다양한 방법으로 의뢰를 하실 수 있습니다."
+	},
+	{
+		"step": 2,
+		"icon": "images/open/step2.png",
+		"title": "점포선정 및 실측",
+		"description": "입점할 점포를 선정하고 실측을 통해 사업 계획을 수립합니다."
+	},
+	{
+		"step": 3,
+		"icon": "images/open/step3.png",
+		"title": "점포승인",
+		"description": "점포승인 후 본사와의 계약을 체결합니다."
+	},
+	{
+		"step": 4,
+		"icon": "images/open/step4.png",
+		"title": "착공",
+		"description": "점포 공사를 시작하고 사업이 진행됩니다."
+	},
+	{
+		"step": 5,
+		"icon": "images/open/step5.png",
+		"title": "사업자등록",
+		"description": "기본적인 절차를 세팅합니다."
+	},
+	{
+		"step": 6,
+		"icon": "images/open/step6.png",
+		"title": "이론실습 교육",
+		"description": "인허가를 완료한 후 이론과 실습 교육을 진행합니다."
+	},
+	{
+		"step": 7,
+		"icon": "images/open/step7.png",
+		"title": "완공 및 오픈준비",
+		"description": "점포 공사를 완료하고 오픈 준비를 마무리합니다."
+	},
+	{
+		"step": 8,
+		"icon": "images/open/step8.png",
+		"title": "오픈",
+		"description": "모든 준비를 마치고 점포를 오픈합니다."
+	}
+]

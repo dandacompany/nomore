@@ -1,0 +1,18 @@
+// 창원 관련 메인 페이지 커버에 들어가야 할 이미지 프롬프트
+const changwonCoverImages = [
+  {
+    image: "/changwon1.jpg",
+    description: "창원의 아름다운 해변을 배경으로 한 이미지",
+    link: "/changwon-beach"
+  },
+  {
+    image: "/changwon2.jpg",
+    description: "창원의 유명한 랜드마크를 담은 이미지",
+    link: "/changwon-landmark"
+  },
+  {
+    image: "/changwon3.jpg",
+    description: "창원의 전통 시장을 보여주는 이미지",
+    link: "/changwon-market"
+  }
+];

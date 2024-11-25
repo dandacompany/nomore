@@ -1,0 +1,166 @@
+[
+	{
+		"category": "떡볶이",
+		"menu": [
+			{
+				"title": "봉매떡볶이",
+				"description": "봉천동매운떡볶이의 시그니처 떡볶이",
+				"price": 14800,
+				"image": "/images/menu/tteokbokki_bongmae.jpg"
+			},
+			{
+				"title": "로제떡볶이",
+				"description": "수제크림소스에 매콤한소스를 넣어 모두가 좋아하는 떡볶이",
+				"price": 16800,
+				"image": "/images/menu/tteokbokki_rose.jpg"
+			},
+			{
+				"title": "바질크림떡볶이",
+				"description": "수제크림소스에 바질을 더한 가장 트렌디한 떡볶이",
+				"price": 16800,
+				"image": "/images/menu/tteokbokki_basil.jpg"
+			},
+			{
+				"title": "마라로제떡볶이",
+				"description": "크림소스에 마라소스를 더한 무더크림 떡볶이",
+				"price": 16800,
+				"image": "/images/menu/tteokbokki_mararose.jpg"
+			},
+			{
+				"title": "짜장떡볶이",
+				"description": "달콤한 짜장소스와 매콤한 조화가 트렌디한 떡볶이",
+				"price": 16800,
+				"image": "/images/menu/tteokbokki_jjajang.jpg"
+			},
+			{
+				"title": "체다감튀떡볶이",
+				"description": "체다치즈와 매콤한 조화가 트렌디한 떡볶이",
+				"price": 16800,
+				"image": "/images/menu/tteokbokki_jjajang.jpg"
+			}
+		]
+	},
+	{
+		"category": "사이드",
+		"menu": [
+			{
+				"title": "대왕오징어튀김",
+				"description": "1개",
+				"price": 1500,
+				"image": "/images/menu/squid_fried.jpg"
+			},
+			{
+				"title": "고구마튀김",
+				"description": "1개",
+				"price": 1000,
+				"image": "/images/menu/sweet_potato_fried.jpg"
+			},
+			{
+				"title": "만두튀김",
+				"description": "1개",
+				"price": 1000,
+				"image": "/images/menu/dumpling_fried.jpg"
+			},
+			{
+				"title": "통김말이튀김",
+				"description": "1개",
+				"price": 2000,
+				"image": "/images/menu/seaweed_roll_fried.jpg"
+			},
+			{
+				"title": "야채튀김",
+				"description": "1개",
+				"price": 1000,
+				"image": "/images/menu/vegetable_fried.jpg"
+			}
+		]
+	},
+	{
+		"category": "토핑",
+		"menu": [
+			{
+				"title": "참치알마요셉프주먹밥",
+				"description": "1ea",
+				"price": 3800,
+				"image": "/images/menu/tuna_mayo_riceball.jpg"
+			},
+			{
+				"title": "낙지알마요셉프주먹밥",
+				"description": "1ea",
+				"price": 3800,
+				"image": "/images/menu/octopus_mayo_riceball.jpg"
+			},
+			{
+				"title": "셀프주먹밥",
+				"description": "1ea",
+				"price": 2000,
+				"image": "/images/menu/self_riceball.jpg"
+			},
+			{
+				"title": "계란찜",
+				"description": "1ea",
+				"price": 2800,
+				"image": "/images/menu/steamed_egg.jpg"
+			},
+			{
+				"title": "체다치즈계란찜",
+				"description": "1ea",
+				"price": 3500,
+				"image": "/images/menu/cheddar_cheese_steamed_egg.jpg"
+			},
+			{
+				"title": "단무지",
+				"description": "1ea",
+				"price": 500,
+				"image": "/images/menu/pickled_radish.jpg"
+			},
+			{
+				"title": "콜라 355ml (복숭아)",
+				"description": "1ea",
+				"price": 1500,
+				"image": "/images/menu/peach_cola.jpg"
+			}
+		]
+	},
+	{
+		"category": "세트",
+		"menu": [
+			{
+				"title": "찹쌀탕수육세트(2~3인)",
+				"description": "찹쌀탕수육(미니)+봉매떡볶이",
+				"price": 25800,
+				"image": "/images/menu/tangsuyuk_set.jpg"
+			},
+			{
+				"title": "찹쌀탕수육세트(3~4인)",
+				"description": "찹쌀탕수육(중)+봉매떡볶이",
+				"price": 39800,
+				"image": "/images/menu/tangsuyuk_set_3_4.jpg"
+			},
+			{
+				"title": "찹쌀탕수육세트(4~5인)",
+				"description": "찹쌀탕수육(대)+봉매떡볶이",
+				"price": 49800,
+				"image": "/images/menu/tangsuyuk_set_4_5.jpg"
+			},
+			{
+				"title": "[맛집보다 맛있는] 찹쌀탕수육(미니)",
+				"description": "찹쌀탕수육(미니)",
+				"price": 6500,
+				"image": "/images/menu/tangsuyuk_mini.jpg"
+			},
+			{
+				"title": "찹쌀탕수육(중)",
+				"description": "달콤한 소스와 부드럽고 쫄깃한 찹쌀탕수육",
+				"price": 17800,
+				"image": "/images/menu/tangsuyuk_medium.jpg"
+			},
+			{
+				"title": "찹쌀탕수육(대)",
+				"description": "달콤한 소스와 부드럽고 쫄깃한 찹쌀탕수육",
+				"price": 25800,
+				"image": "/images/menu/tangsuyuk_large.jpg"
+			}
+		]
+	}
+]

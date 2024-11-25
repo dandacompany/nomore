@@ -1,0 +1,109 @@
+[
+	{
+		"category": "떡볶이",
+		"menus": [
+			{
+				"title": "봉매떡볶이",
+				"description": "봉천동매운떡볶이의 시그니처 떡볶이",
+				"price": 14800,
+				"image": "/images/menu/tteokbokki_1.jpg"
+			},
+			{
+				"title": "로제떡볶이",
+				"description": "수제크림소스에 매콤한소스를 넣어 모두가 좋아하는 떡볶이",
+				"price": 16800,
+				"image": "/images/menu/tteokbokki_2.jpg"
+			},
+			{
+				"title": "찹쌀탕수육세트(2~3인)",
+				"description": "찹쌀탕수육(미니)+봉매떡볶이",
+				"price": 25800,
+				"image": "/images/menu/tangsuyuk_set.jpg"
+			},
+			{
+				"title": "바질크림떡볶이",
+				"description": "수제크림소스에 바질을 더한 가장 트렌디한 떡볶이",
+				"price": 16800,
+				"image": "/images/menu/tteokbokki_3.jpg"
+			},
+			{
+				"title": "찹쌀탕수육(미니)",
+				"description": "찹쌀로 만들어 간단하게 즐기기 좋은 맛",
+				"price": 6500,
+				"image": "/images/menu/tangsuyuk_mini.jpg"
+			},
+			{
+				"title": "찹쌀탕수육세트(3~4인)",
+				"description": "찹쌀탕수육(중)+봉매떡볶이",
+				"price": 39800,
+				"image": "/images/menu/tangsuyuk_set_3_4.jpg"
+			},
+			{
+				"title": "찹쌀탕수육세트(4~5인)",
+				"description": "찹쌀탕수육(대)+봉매떡볶이",
+				"price": 49800,
+				"image": "/images/menu/tangsuyuk_set_4_5.jpg"
+			},
+			{
+				"title": "마라로제떡볶이",
+				"description": "크림소스에 마라소스를 더한 무더크림 떡볶이",
+				"price": 16800,
+				"image": "/images/menu/tteokbokki_4.jpg"
+			},
+			{
+				"title": "[사장님 추천] 바질크림떡볶이",
+				"description": "수제크림소스에 바질을 넣어 만든 가장 트렌디한 떡볶이",
+				"price": 16800,
+				"image": "/images/menu/tteokbokki_3.jpg"
+			},
+			{
+				"title": "짜장떡볶이",
+				"description": "달콤한 짜장소스와 매콤한 조화가 트렌디한 떡볶이",
+				"price": 16800,
+				"image": "/images/menu/tteokbokki_jjajang.jpg"
+			},
+			{
+				"title": "[맛집보다 맛있는] 찹쌀탕수육(미니)",
+				"description": "찹쌀탕수육(미니)",
+				"price": 6500,
+				"image": "/images/menu/tangsuyuk_mini.jpg"
+			{
+				"title": "[맛집보다 맛있는] 찹쌀탕수육(미니)",
+				"description": "찹쌀탕수육(미니)",
+				"price": 6500,
+				"image": "/images/menu/tangsuyuk_mini.jpg"
+			},
+			{
+				"title": "찹쌀탕수육(중)",
+				"description": "달콤한 소스와 부드럽고 쫄깃한 찹쌀탕수육",
+				"price": 17800,
+				"image": "/images/menu/tangsuyuk_medium.jpg"
+			},
+			{
+				"title": "찹쌀탕수육(대)",
+				"description": "달콤한 소스와 부드럽고 쫄깃한 찹쌀탕수육",
+				"price": 25800,
+				"image": "/images/menu/tangsuyuk_large.jpg"
+			},
+
+		{
+			"title": "대왕오징어튀김",
+			"description": "1개",
+			"price": 1500,
+			"image": "/images/menu/squid_fried.jpg"
+		},
+		{
+			"title": "고구마튀김",
+			"description": "1개",
+			"price": 1000,
+			"image": "/images/menu/sweet_potato_fried.jpg"
+		},
+		{
+			"title": "만두튀김",
+			"description": "1개",
+			"price": 1000,
+			"image": "/images/menu/dumpling_fried.jpg"
+		}
+		]
+	}
+]

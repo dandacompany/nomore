@@ -1,0 +1,46 @@
+[
+	{
+		"name": "봉천본점",
+		"address": "서울 관악구 관악로 164 1층 108호",
+		"phone": "070-8821-3939",
+		"hours": "24시간 영업",
+		"latitude": 37.4821,
+		"longitude": 126.9528
+	},
+	{
+		"name": "역삼점",
+		"address": "서울 강남구 테헤란로 123",
+		"phone": "02-1234-5678",
+		"hours": "09:00 - 22:00",
+		"web_address": "https://example.com/yeoksam",
+		"latitude": 37.501,
+		"longitude": 127.0374
+	},
+	{
+		"name": "성수점",
+		"address": "서울 성동구 아차산로 56",
+		"phone": "02-2345-6789",
+		"hours": "10:00 - 21:00",
+		"web_address": "https://example.com/seongsu",
+		"latitude": 37.5446,
+		"longitude": 127.055
+	},
+	{
+		"name": "신림점",
+		"address": "서울 관악구 신림로 321",
+		"phone": "02-3456-7890",
+		"hours": "08:00 - 20:00",
+		"web_address": "https://example.com/sillim",
+		"latitude": 37.484,
+		"longitude": 126.9291
+	},
+	{
+		"name": "여의도점",
+		"address": "서울 영등포구 여의대로 77",
+		"phone": "02-4567-8901",
+		"hours": "07:00 - 23:00",
+		"web_address": "https://example.com/yeouido",
+		"latitude": 37.524,
+		"longitude": 126.9265
+	}
+]
