@@ -6,10 +6,20 @@ import StoreList from "../components/StoreList";
 import GoogleMap from "../components/GoogleMap";
 import storeData from "../../public/data/store.json";
 
+// Store 타입 정의 추가
+interface Store {
+	name: string;
+	address: string;
+	phone: string;
+	hours: string;
+	lat: number;
+	lng: number;
+}
+
 const StorePage: React.FC = () => {
-	const [selectedStore, setSelectedStore] = useState(storeData[0]);
+	const [selectedStore, setSelectedStore] = useState<Store>(storeData[0]);
 	const [searchTerm, setSearchTerm] = useState("");
-	const [filteredStores, setFilteredStores] = useState(storeData);
+	const [filteredStores, setFilteredStores] = useState<Store[]>(storeData);
 
 	useEffect(() => {
 		const filtered = storeData.filter(

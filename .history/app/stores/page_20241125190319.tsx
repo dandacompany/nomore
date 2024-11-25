@@ -6,10 +6,20 @@ import StoreList from "../components/StoreList";
 import GoogleMap from "../components/GoogleMap";
 import storeData from "../../public/data/store.json";
 
+// Store 타입 정의 추가
+interface Store {
+	name: string;
+	address: string;
+	phone: string;
+	hours: string;
+	lat: number;
+	lng: number;
+}
+
 const StorePage: React.FC = () => {
-	const [selectedStore, setSelectedStore] = useState(storeData[0]);
+	const [selectedStore, setSelectedStore] = useState<Store>(storeData[0]);
 	const [searchTerm, setSearchTerm] = useState("");
-	const [filteredStores, setFilteredStores] = useState(storeData);
+	const [filteredStores, setFilteredStores] = useState<Store[]>(storeData);
 
 	useEffect(() => {
 		const filtered = storeData.filter(
@@ -23,7 +33,7 @@ const StorePage: React.FC = () => {
 	return (
 		<Layout>
 			<div className="flex flex-col md:flex-row h-[calc(100vh-98px)]">
-				<div className="w-full md:w-1/3 p-4 overflow-y-auto">
+				<div className="w-full md:w-1/5 p-4 overflow-y-auto">
 					<h1 className="text-2xl font-bold mb-4">매장 찾기</h1>
 					<input
 						type="text"
@@ -38,7 +48,7 @@ const StorePage: React.FC = () => {
 						onSelectStore={setSelectedStore}
 					/>
 				</div>
-				<div className="w-full md:w-2/3">
+				<div className="w-full md:w-4/5">
 					<GoogleMap selectedStore={selectedStore} stores={filteredStores} />
 				</div>
 			</div>
